@@ -50,12 +50,6 @@ public class HomeFragment extends Fragment {
 
         homepage.setText(HomeText.toString());
 
-        /*homeViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });*/
         return root;
     }
 

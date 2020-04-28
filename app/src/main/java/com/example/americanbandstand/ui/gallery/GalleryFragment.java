@@ -14,6 +14,11 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.americanbandstand.R;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.Charset;
+
 public class GalleryFragment extends Fragment {
 
     private GalleryViewModel galleryViewModel;
@@ -23,13 +28,15 @@ public class GalleryFragment extends Fragment {
         galleryViewModel =
                 ViewModelProviders.of(this).get(GalleryViewModel.class);
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        galleryViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
-        return root;
+        final TextView textView = root.findViewById(R.id.Image1Text);
+
+        InputStream inputStream = getResources().openRawResource(R.raw.);
+        BufferedReader reader = new BufferedReader(new
+                InputStreamReader(inputStream, Charset.forName("UTF-8")));
+        StringBuilder HomeText = new StringBuilder();
+        HomeText.append(appender(reader));
+
+        homepage.setText(HomeText.toString());
+
     }
 }
