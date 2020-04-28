@@ -30,13 +30,14 @@ public class GalleryFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
         final TextView textView = root.findViewById(R.id.Image1Text);
 
-        InputStream inputStream = getResources().openRawResource(R.raw.);
+        /*InputStream inputStream = getResources().openRawResource(R.raw.);
         BufferedReader reader = new BufferedReader(new
                 InputStreamReader(inputStream, Charset.forName("UTF-8")));
         StringBuilder HomeText = new StringBuilder();
         HomeText.append(appender(reader));
 
         homepage.setText(HomeText.toString());
-
+*/
+        return root;
     }
 }
