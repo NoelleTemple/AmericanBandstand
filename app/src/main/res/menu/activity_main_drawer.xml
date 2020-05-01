@@ -17,6 +17,10 @@
             android:icon="@android:drawable/ic_btn_speak_now"
             android:title="Songs" />
         <item
+            android:id="@+id/nav_crm"
+            android:icon="@android:drawable/btn_star"
+            android:title="The Civil Rights Movement" />
+        <item
             android:id="@+id/nav_quiz"
             android:icon="@android:drawable/ic_menu_help"
             android:title="Quiz" />

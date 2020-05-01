@@ -65,6 +65,11 @@
         android:label="Sources"
         tools:layout="@layout/fragment_source" />
 
+    <fragment
+        android:id="@+id/nav_crm"
+        android:name="com.example.americanbandstand.ui.CRM.CRMFragment"
+        android:label="The Civil Rights Movement"
+        tools:layout="@layout/crm_layout" />
 
 
 </navigation>
