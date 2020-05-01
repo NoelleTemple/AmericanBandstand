@@ -54,18 +54,18 @@ public class HomeFragment extends Fragment {
     }
 
     public String appender (BufferedReader buffread){
-        StringBuilder HomeText = new StringBuilder();
+        StringBuilder Text = new StringBuilder();
         String line = "";
-        HomeText.append("\t");
+        Text.append("\t\t\t\t");
         try {
             while ((line = buffread.readLine()) != null) {
-                HomeText.append(line);
+                Text.append(line);
             }
         } catch (IOException e) {
             Log.wtf("TestData: Error reading datafile on line " + line, e);
             e.printStackTrace();
         }
-        HomeText.append("\n\n");
-        return HomeText.toString();
+        Text.append("\n\n");
+        return Text.toString();
     }
 }

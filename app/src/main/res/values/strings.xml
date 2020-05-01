@@ -9,9 +9,35 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_song">Songs</string>
     <string name="AB">American Bandstand</string>
+    <string name="play">Play and Pause Song</string>
+
+    <string name="QTitle">You are an African American teenager from Philadelphia. American Bandstand continues to use Jim Crow era tactics to unofficially segregate the studio. Can you get in?"</string>
+    <string name="Q1">How early do you start to plan your trip?</string>
+    <string name="Q1A1">I send an application in 2 weeks early because that is what my friend did when she went.</string>
+    <string name="Q1A2">I show up same day like the poster said to!</string>
+    <string name="Q2">Where do you say you go to school?</string>
+    <string name="Q2A1">West Catholic High School for Girls</string>
+    <string name="Q2A2">West Catholic High School for Boys</string>
+    <string name="Q2A3">West Philadelphia Public High School</string>
+    <string name="Q2A4">South Philadelphia Public High School</string>
+    <string name="Q3">What do say is your last name?</string>
+    <!---->
+    <string name="Q3A1">Fusco</string>
+    <string name="Q3A2">Blavat</string>
+    <string name="Q3A3">Stroman</string>
+    <string name="Q3A4">Cannady</string>
+    <!---->
+    <string name="R2Q">You never hear back from the studio. Do you show up same day anyway?</string>
+    <string name="AYes">Yes.</string>
+    <string name="ANo">No.</string>
+    <string name="R3">Sorry, but you end up watching from home.</string>
+    <string name="R1">Sorry! No early approval means you do not get it.</string>
+    <string name="Q5">So you argue.  How do you fight this?</string>
+    <string name="Q5A2">I yell and say it is not fair!  The doorman just let a white person in without a membership card!</string>
+    <string name="Q5A3">I call the Tribune</string>
+    <string name="R4">A fight breaks out between and you a white teenager trying to pass in front of you.</string>
+    <string name="R4b">They say they are at capacity and you are not allowed to go in.</string>
+    <string name="R5">They let you in! But as the show goes on, you notice that the camera never points near you.</string>
 </resources>

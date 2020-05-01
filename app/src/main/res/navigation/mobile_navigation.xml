@@ -18,9 +18,53 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.example.americanbandstand.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        android:id="@+id/nav_song"
+        android:name="com.example.americanbandstand.ui.Songs.SongFragment"
+        android:label="@string/menu_song"
+        tools:layout="@layout/fragment_song" />
+
+    <fragment
+        android:id="@+id/nav_quiz"
+        android:name="com.example.americanbandstand.ui.quiz.QuizFragment"
+        android:label="Quiz"
+        tools:layout="@layout/fragment_quiz" />
+
+    <fragment
+        android:id="@+id/nav_Q2"
+        android:name="com.example.americanbandstand.ui.quiz.Q2"
+        android:label="Q2"
+        tools:layout="@layout/activity_q2" />
+
+    <fragment
+        android:id="@+id/nav_Q3"
+        android:name="com.example.americanbandstand.ui.quiz.Q3"
+        android:label="Q3"
+        tools:layout="@layout/q3" />
+
+    <fragment
+        android:id="@+id/nav_Q5"
+        android:name="com.example.americanbandstand.ui.quiz.Q5"
+        android:label="Q5"
+        tools:layout="@layout/q5" />
+
+    <fragment
+        android:id="@+id/nav_R1"
+        android:name="com.example.americanbandstand.ui.quiz.R1"
+        android:label="R1"
+        tools:layout="@layout/r1" />
+
+    <fragment
+        android:id="@+id/nav_R3"
+        android:name="com.example.americanbandstand.ui.quiz.R3"
+        android:label="R3"
+        tools:layout="@layout/r3" />
+
+    <fragment
+        android:id="@+id/nav_source"
+        android:name="com.example.americanbandstand.ui.sources.SourcesFragment"
+        android:label="Sources"
+        tools:layout="@layout/fragment_source" />
+
+
 
 </navigation>
